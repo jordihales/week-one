@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.font-sans {
+  font-family: 'Jost', sans-serif;
+}
+
+.header {
+  @apply top-0 left-0 z-50 flex items-center justify-between w-full;
+  transition: 0.2s ease;
+
+  @screen lg {
+    @apply px-20;
+  }
+}
